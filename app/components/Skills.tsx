@@ -31,6 +31,18 @@ const skills: Skill[] = [
     name: 'Typescript',
     progress: 83,
   },
+  {
+    name: 'MongoDB',
+    progress: 77,
+  },
+  {
+    name: 'Responsive',
+    progress: 79,
+  },
+  {
+    name: 'Figma',
+    progress: 61,
+  },
 ];
 
 export default function Skills() {
@@ -38,7 +50,7 @@ export default function Skills() {
     <Card>
       <section className="space-y-4">
         <h2 className=" textsubheading font-bold text-primarytext">
-          FRONT END
+          SKILL SET
         </h2>
         <div className="space-y-4">
           {skills.map((skill: Skill) => (

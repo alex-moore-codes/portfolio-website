@@ -19,7 +19,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={`${mont.className} flex w-screen flex-col items-center justify-center bg-gray-50 p-20`}
       >
-        <main className="space-y-11 xl:w-3/4 2xl:w-2/3">{children}</main>
+        <main className="space-y-11 lg:w-2/3 xl:w-3/4">{children}</main>
       </body>
     </html>
   );
