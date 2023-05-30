@@ -22,7 +22,10 @@ export default function ProjectCard({ ...props }: Project) {
           <div className="mb-4 flex flex-col">
             <div className="mb-4 mt-4 flex flex-row flex-wrap lg:mt-0">
               {props.stack.map((stack: string) => (
-                <span className="mr-3 inline-block whitespace-nowrap text-sm font-medium text-secondarytext">
+                <span
+                  key={stack}
+                  className="mr-3 inline-block whitespace-nowrap text-sm font-medium text-secondarytext"
+                >
                   &#x23;{stack}
                 </span>
               ))}
