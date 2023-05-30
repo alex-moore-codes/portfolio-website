@@ -20,18 +20,20 @@ export default function Bio() {
                   Alex Moore
                 </span>
                 <br />
-                <span className=" text-subheading text-secondarytext">
+                <span className=" text-subheading font-medium text-secondarytext">
                   Full Stack Developer
                 </span>
               </h1>
             </div>
             <div className="flex space-x-2 text-primarytext">
               <EnvelopeIcon className="h-6 w-6" />
-              <span className="textsubheading">alex.moore.codes@gmail.com</span>
+              <span className="textsubheading font-medium">
+                alex.moore.codes@gmail.com
+              </span>
             </div>
           </div>
           <div className="mt-4">
-            <span className="text-body text-secondarytext">
+            <span className="text-body font-medium text-secondarytext">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
               omnis molestiae dolore exercitationem incidunt minus, amet animi
               nobis voluptatum, nostrum iure sed, voluptas temporibus aspernatur
