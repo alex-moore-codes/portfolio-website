@@ -34,11 +34,11 @@ const hobbies: Hobby[] = [
 
 export default function Hobbies() {
   return (
-    <Card width="w-1/3">
+    <Card width="w-full">
       <section className="space-y-8">
         <h2 className="text-heading font-medium text-primarytext">Hobbies</h2>
         {hobbies.map((hobby: Hobby) => (
-          <div>
+          <div className="flex flex-col">
             <Image
               src={hobby.image}
               width={500}

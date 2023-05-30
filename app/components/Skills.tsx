@@ -35,7 +35,7 @@ const skills: Skill[] = [
 
 export default function Skills() {
   return (
-    <Card width="w-1/2">
+    <Card>
       <section className="space-y-4">
         <h2 className=" textsubheading font-bold text-primarytext">
           FRONT END
@@ -43,7 +43,7 @@ export default function Skills() {
         <div className="space-y-4">
           {skills.map((skill: Skill) => (
             <div key={skill.name} className="flex font-medium">
-              <div className="w-2/5 sm:w-1/3 md:w-1/4 lg:w-1/5">
+              <div className="w-3/5 sm:w-1/3 md:w-1/4 lg:w-1/5">
                 <p className="text-body">{skill.name}</p>
               </div>
               <div className="flex w-full flex-col justify-center">
