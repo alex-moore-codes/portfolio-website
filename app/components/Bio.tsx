@@ -5,7 +5,7 @@ import { EnvelopeIcon } from '@heroicons/react/24/solid';
 
 export default function Bio() {
   const bio: string =
-    'Hey my name is Alex! I am a PhD student with a passion for ancient Christian history and web development. I am a natural problem-solver and coding gives me an outlet for mindless tinkering. Turns out, I have gotten pretty good at it. I have built a few projects you can review down below, and I am even considering building my own app for a business endeavor. Inquiries? Send me an email.';
+    'Hey my name is Alex! I am a PhD student with a passion for ancient Christian history and web development. I am a natural problem-solver and coding gives me an outlet for mindless tinkering. Turns out, I have gotten pretty good at it. This site is just practice so I can better lead a dev team!';
 
   return (
     <Card>
@@ -30,9 +30,9 @@ export default function Bio() {
             </div>
             <div className="flex space-x-2 text-primarytext">
               <EnvelopeIcon className="h-6 w-6" />
-              <a href="mailto:alex.moore.codes@gmail.com">
+              <a href="mailto:">
                 <span className="textsubheading font-medium">
-                  alex.moore.codes@gmail.com
+                  my_email_address
                 </span>
               </a>
             </div>
